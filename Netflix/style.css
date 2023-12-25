@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    position: relative;
+    background-image: url("Assets/netflix_BG.jpg");
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+@media (max-width: 1200px){
+    .main{
+        background-size: cover;
+    }
+}
+
+.main .box{
+    background-color: black;
+    opacity: 0.7;
+    height: 75vh;
+}
+
+nav{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+nav > span > img{
+    width: 153px;
+}
+
+.content :nth-child(1){
+    color: white;
+    margin-top: 150px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.content :nth-child(2){
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content :nth-child(3){
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+}
